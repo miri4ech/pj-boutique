@@ -1,4 +1,4 @@
-#pj-boutique
+# pj-boutique
 
 This is a simple online boutique template.
 

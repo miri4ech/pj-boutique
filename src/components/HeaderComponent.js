@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
-
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 class Header extends Component {
     constructor(props) {
         super(props);
+        this.toggleNav = this.toggleNav.bind(this);
         this.state = {
             isNavOpen : false
         }
-        this.toggleNav = this.toggleNav.bind(this);
     }
 
     toggleNav() {
@@ -21,40 +21,37 @@ class Header extends Component {
     render (){
         return(
             <>
-                <Navbar expand="md">
+                <Navbar expand="md" color="faded" light >
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="mr-auto" href="/">
-                            <img src="assets/images/logo192.png" height="30" width="41" alt="Boutique Milan" />
+                        <NavbarBrand className="ml-auto mr-auto" href="/home">
+                            <div className="title">Milan</div>
                         </NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav className="ml-auto mr-auto" navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/home"><span className="fa fa-home fa-lg"></span>Home</NavLink>
+                                    <HashLink className="nav-link" to="/home">Home</HashLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/new"><span className="fa fa-info fa-lg"></span>New</NavLink>
+                                    <HashLink className="nav-link" smooth to="/home#info">Info</HashLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/styles"><span className="fa fa-list fa-lg"></span>Styles</NavLink>
+                                    <HashLink className="nav-link" smooth to="/home#new">New</HashLink>
                                 </NavItem>
+
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/access"><span className="fa fa-address-card fa-lg"></span>Access</NavLink>
+                                    <HashLink className="nav-link" smooth to="/home#access">Access</HashLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>
                     </div>
                 </Navbar>
-                <Jumbotron>
+                <Jumbotron className="jumbotron-fluid jumbotron-extend">
                     <div className="container">
-                        <div className="row row-header">
-                            <div className="col-12 col-sm-6">
-                                <h1>Boutique Milan</h1>
-                                <p>This is a simple online website for boutique!</p>
-                            </div>
-                        </div>
+                        <h1 className="title">Milan</h1>
+                        <p>This is an online website for a boutique.</p>
+                        <Link to ='/all' ><Button outline color="secondary" size="sm">DISCOVER MORE</Button></Link>
                     </div>
-                    
                 </Jumbotron>
             </>
         )
