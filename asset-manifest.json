@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pj-boutique/static/css/main.6260cb86.chunk.css",
-    "main.js": "/pj-boutique/static/js/main.4644b081.chunk.js",
-    "main.js.map": "/pj-boutique/static/js/main.4644b081.chunk.js.map",
+    "main.js": "/pj-boutique/static/js/main.d646b628.chunk.js",
+    "main.js.map": "/pj-boutique/static/js/main.d646b628.chunk.js.map",
     "runtime-main.js": "/pj-boutique/static/js/runtime-main.4708f907.js",
     "runtime-main.js.map": "/pj-boutique/static/js/runtime-main.4708f907.js.map",
     "static/css/2.5d55bdde.chunk.css": "/pj-boutique/static/css/2.5d55bdde.chunk.css",
     "static/js/2.2c06bdc1.chunk.js": "/pj-boutique/static/js/2.2c06bdc1.chunk.js",
     "static/js/2.2c06bdc1.chunk.js.map": "/pj-boutique/static/js/2.2c06bdc1.chunk.js.map",
     "index.html": "/pj-boutique/index.html",
-    "precache-manifest.6760f0d29c3ea71fc881150e52b943fb.js": "/pj-boutique/precache-manifest.6760f0d29c3ea71fc881150e52b943fb.js",
+    "precache-manifest.4042413b325069879cef1a13c8ed7fc2.js": "/pj-boutique/precache-manifest.4042413b325069879cef1a13c8ed7fc2.js",
     "service-worker.js": "/pj-boutique/service-worker.js",
     "static/css/2.5d55bdde.chunk.css.map": "/pj-boutique/static/css/2.5d55bdde.chunk.css.map",
     "static/css/main.6260cb86.chunk.css.map": "/pj-boutique/static/css/main.6260cb86.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.5d55bdde.chunk.css",
     "static/js/2.2c06bdc1.chunk.js",
     "static/css/main.6260cb86.chunk.css",
-    "static/js/main.4644b081.chunk.js"
+    "static/js/main.d646b628.chunk.js"
   ]
 }
