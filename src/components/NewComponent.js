@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Jumbotron,Card, CardImg, CardBody, CardTitle, CardSubtitle, Button} from 'reactstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
+import { baseUrl } from '../shared/baseUrl';
 
 class New extends Component {
     constructor(props){
@@ -24,7 +24,7 @@ class New extends Component {
                             <CardTitle>{item.name}</CardTitle>
                             <CardSubtitle>{item.price}</CardSubtitle>
                             <br />
-                            <Link to ='/all' ><Button outline color="secondary">DISCOVER MORE</Button></Link>
+                            <Link to ={baseUrl + "all"} ><Button outline color="secondary">DISCOVER MORE</Button></Link>
                         </CardBody>
                     </Card>
                 </div>

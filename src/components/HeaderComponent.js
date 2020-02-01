@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { baseUrl } from '../shared/baseUrl';
 
 class Header extends Component {
     constructor(props) {
@@ -24,23 +25,23 @@ class Header extends Component {
                 <Navbar expand="md" color="faded" light >
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="ml-auto mr-auto" href="/home">
+                        <NavbarBrand className="ml-auto mr-auto" href={baseUrl + "home"}>
                             <div className="title">Milan</div>
                         </NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ml-auto mr-auto" navbar>
                                 <NavItem>
-                                    <HashLink className="nav-link" to="/home">Home</HashLink>
+                                    <HashLink className="nav-link" to={baseUrl + "home"}>Home</HashLink>
                                 </NavItem>
                                 <NavItem>
-                                    <HashLink className="nav-link" smooth to="/home#info">Info</HashLink>
+                                    <HashLink className="nav-link" smooth to={baseUrl + "home#info"}>Info</HashLink>
                                 </NavItem>
                                 <NavItem>
-                                    <HashLink className="nav-link" smooth to="/home#new">New</HashLink>
+                                    <HashLink className="nav-link" smooth to={baseUrl + "home#new"}>New</HashLink>
                                 </NavItem>
 
                                 <NavItem>
-                                    <HashLink className="nav-link" smooth to="/home#access">Access</HashLink>
+                                    <HashLink className="nav-link" smooth to={baseUrl + "home#access"}>Access</HashLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>
@@ -50,7 +51,7 @@ class Header extends Component {
                     <div className="container">
                         <h1 className="title">Milan</h1>
                         <p>This is an online website for a boutique.</p>
-                        <Link to ='/all' ><Button outline color="secondary" size="sm">DISCOVER MORE</Button></Link>
+                        <Link to ={baseUrl + "all"} ><Button outline color="secondary" size="sm">DISCOVER MORE</Button></Link>
                     </div>
                 </Jumbotron>
             </>

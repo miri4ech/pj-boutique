@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { Jumbotron } from 'reactstrap';
+import { baseUrl } from '../shared/baseUrl';
 
 function Footer(props) {
     return(
@@ -10,7 +11,7 @@ function Footer(props) {
                     <div className="row">             
                         <div className="col-4 offset-1 col-sm-2">
                             <ul className="list-unstyled">
-                                <li><HashLink to="/home">Home</HashLink></li>
+                                <li><HashLink to={baseUrl + "home"}>Home</HashLink></li>
                                 <li>
                                     <HashLink smooth to="/home#info">Info</HashLink>
                                 </li>
