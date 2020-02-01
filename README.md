@@ -15,6 +15,18 @@ $ npm / yarn install
 $ npm / yarn start 
 ```
 
+### Production Environment
+
+ - Install gh-pages ```npm install / yarn add gh-pages```
+ - Setup ```homepage: https://[your user name].github.io/[repository name]/``` in package.json
+ - Setup ```"predeploy": "npm run build", "deploy": "gh-pages -d build"``` in "scripts" of package.json 
+ - Run: ```$ npm run deploy```
+
+```sh
+$ npm / yarn build
+$ npm / yarn run deploy
+```
+
 ### Todos
 
  - Integrate frontend with backend
