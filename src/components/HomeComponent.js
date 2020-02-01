@@ -39,7 +39,7 @@ class Home extends Component{
                             </Table>
                         </div>
                         <div className="col-12 col-md m-1">
-                            <iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207446.9730479291!2d139.6007829165666!3d35.66816252785147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2z5p2x5Lqs6YO95p2x5Lqs!5e0!3m2!1sja!2sjp!4v1580218670382!5m2!1sja!2sjp" width="400" height="300"></iframe>
+                            <iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207446.9730479291!2d139.6007829165666!3d35.66816252785147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2z5p2x5Lqs6YO95p2x5Lqs!5e0!3m2!1sja!2sjp!4v1580218670382!5m2!1sja!2sjp" width="100%" height="300"></iframe>
                         </div>
                     </div>
                 </div>

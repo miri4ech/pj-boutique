@@ -1,0 +1,1 @@
+export const baseUrl = 'https://miri4ech.github.io/pj-boutique';
