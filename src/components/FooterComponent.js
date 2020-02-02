@@ -45,7 +45,8 @@ function Footer(props) {
             </Jumbotron>
             <div className="row justify-content-center theme">             
                 <div className="col-auto">
-                    <p>© Copyright 2020 Boutique Milan</p>
+                    <p>© Copyright 2020 miri4ech &nbsp;
+                    <small><a href="https://unsplash.com/" target="_blank">photos by unsplash</a></small></p> 
                 </div>
             </div>
         </div>

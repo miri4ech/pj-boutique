@@ -9,7 +9,7 @@ function RenderCard (props) {
             return(
                 <div key={item.id} className="col-sm-6 col-md-4">
                     <Card>
-                        <CardImg height="250" src={item.image} alt={item.name} />
+                        <CardImg height="auto" src={item.image} alt={item.name} />
                         <CardBody>
                         <CardTitle>{item.name}</CardTitle>
                         <CardSubtitle>{item.price}</CardSubtitle>
@@ -38,7 +38,7 @@ function All (props){
                     </div>                
                 </div>
                 <div className="row align-items-start">
-                        <RenderCard items={props.items} />
+                    <RenderCard items={props.items} />
                 </div>
             </div>
         </Jumbotron>
