@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a169feefd49aee7b099d36a9c2c51cef",
+    "revision": "59c819f7900eb74262afad08ff7ac6a3",
     "url": "/pj-boutique/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pj-boutique/static/css/2.5d55bdde.chunk.css"
   },
   {
-    "revision": "9a5fb9f39b5bb1b551e8",
-    "url": "/pj-boutique/static/css/main.6260cb86.chunk.css"
+    "revision": "520733facdf8835d626a",
+    "url": "/pj-boutique/static/css/main.e09ebb3e.chunk.css"
   },
   {
     "revision": "bd79916dfc2c5546e020",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pj-boutique/static/js/2.2c06bdc1.chunk.js.LICENSE"
   },
   {
-    "revision": "9a5fb9f39b5bb1b551e8",
-    "url": "/pj-boutique/static/js/main.d646b628.chunk.js"
+    "revision": "520733facdf8835d626a",
+    "url": "/pj-boutique/static/js/main.f737a8eb.chunk.js"
   },
   {
     "revision": "02fa90e525fac7bf0a44",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pj-boutique/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "c9bb021e7ea47c9beb6fa6cf19b6a7fc",
-    "url": "/pj-boutique/static/media/kv.c9bb021e.jpg"
+    "revision": "73c0119d74275b68dcbf2d95d9fa83e4",
+    "url": "/pj-boutique/static/media/kv.73c0119d.jpg"
   },
   {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
