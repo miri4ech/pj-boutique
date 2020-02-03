@@ -46,7 +46,7 @@ function Footer(props) {
             <div className="row justify-content-center theme">             
                 <div className="col-auto">
                     <p>© Copyright 2020 miri4ech &nbsp;
-                    <small><a href="https://unsplash.com/" target="_blank">photos by unsplash</a></small></p> 
+                    <small><a href="https://unsplash.com/" target="_blank"　rel="noopener noreferrer">photos by unsplash</a></small></p> 
                 </div>
             </div>
         </div>
